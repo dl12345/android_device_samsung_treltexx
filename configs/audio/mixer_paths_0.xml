@@ -180,9 +180,6 @@
     <ctl name="AIF3TX2 Input 4 Volume" value="32" />
     <ctl name="DSP4L Input 1 Volume" value="26" />
     <ctl name="DSP4L Input 2 Volume" value="26" />
-    <ctl name="HPOUT3L Input 2 Volume" value="0" />
-    <ctl name="HPOUT1L Impedance Volume" value="60" />
-    <ctl name="HPOUT1R Impedance Volume" value="60" />
     <ctl name="Input Ramp Up" value="8ms/6dB" />
 
     <ctl name="Sample Rate 2" value="8kHz" />
@@ -206,21 +203,7 @@
     <ctl name="IN4 OSR" value="1.536MHz" />
     <ctl name="IN3R Digital Volume" value="138" />
     <ctl name="IN4R Digital Volume" value="138" />
-
-    <!-- EQ1 & EQ3 filter -->
-    <ctl name="EQ1 B1 Volume" value="12" />
-    <ctl name="EQ1 B2 Volume" value="12" />
-    <ctl name="EQ1 B3 Volume" value="12" />
-    <ctl name="EQ1 B4 Volume" value="12" />
-    <ctl name="EQ1 B5 Volume" value="12" />
-    <ctl name="EQ1 Coefficients" value="0 1 16 0 0 0 0 204 32 0 240 0 0 0 21 38 32 0 240 0 0 0 9 60 32 0 240 0 0 0 17 84 16 0 8 0 64 0 0 0" />
-
-    <ctl name="EQ3 B1 Volume" value="12" />
-    <ctl name="EQ3 B2 Volume" value="12" />
-    <ctl name="EQ3 B3 Volume" value="12" />
-    <ctl name="EQ3 B4 Volume" value="12" />
-    <ctl name="EQ3 B5 Volume" value="12" />
-    <ctl name="EQ3 Coefficients" value="0 1 16 0 0 0 0 204 32 0 240 0 0 0 21 38 32 0 240 0 0 0 9 60 32 0 240 0 0 0 17 84 16 0 8 0 64 0 0 0" />							   
+						   
     <!--
     #######################################################
     ### Earpiece
@@ -259,7 +242,8 @@
         <ctl name="AIF1TX2 Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT3L Input 3" value="ISRC2INT1" />
         <ctl name="HPOUT3R Input 3" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
         <ctl name="RCV Switch" value="1" />
     </path>
 
@@ -281,7 +265,8 @@
         <ctl name="AIF1TX2 Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT3L Input 3" value="ISRC2INT1" />
         <ctl name="HPOUT3R Input 3" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
         <ctl name="RCV Switch" value="1" />
     </path>
 
@@ -391,7 +376,7 @@
         <ctl name="HPOUT2R Input 3" value="ISRC2INT1" />
         <ctl name="HPOUT2L Input 1" value="AIF1RX1" />
         <ctl name="HPOUT2R Input 1" value="AIF1RX2" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="SPK Switch" value="1" />
     </path>
 
@@ -415,7 +400,7 @@
         <ctl name="HPOUT2R Input 3" value="ISRC2INT1" />
         <ctl name="HPOUT2L Input 1" value="AIF1RX1" />
         <ctl name="HPOUT2R Input 1" value="AIF1RX2" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="SPK Switch" value="1" />
     </path>
 
@@ -508,7 +493,7 @@
         <ctl name="HPOUT1R Input 1" value="AIF1RX2" />
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -525,7 +510,7 @@
         <ctl name="HPOUT1R Input 1" value="AIF1RX2" />
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -586,7 +571,7 @@
         <ctl name="HPOUT1R Input 1" value="AIF1RX2" />
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -603,7 +588,7 @@
         <ctl name="HPOUT1R Input 1" value="AIF1RX2" />
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
-        <ctl name="AIF2 Mode" value="Slave" />
+        <ctl name="AIF2 Mode" value="Master" />
         <ctl name="HP Switch" value="1" />
     </path>
 
