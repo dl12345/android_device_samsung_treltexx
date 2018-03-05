@@ -244,6 +244,8 @@
         <ctl name="HPOUT3R Input 3" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
         <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="RCV Switch" value="1" />
     </path>
 
@@ -267,6 +269,8 @@
         <ctl name="HPOUT3R Input 3" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
         <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="RCV Switch" value="1" />
     </path>
 
@@ -377,6 +381,9 @@
         <ctl name="HPOUT2L Input 1" value="AIF1RX1" />
         <ctl name="HPOUT2R Input 1" value="AIF1RX2" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="SPK Switch" value="1" />
     </path>
 
@@ -401,6 +408,9 @@
         <ctl name="HPOUT2L Input 1" value="AIF1RX1" />
         <ctl name="HPOUT2R Input 1" value="AIF1RX2" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="SPK Switch" value="1" />
     </path>
 
@@ -494,6 +504,9 @@
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -511,6 +524,9 @@
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -572,6 +588,9 @@
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="HP Switch" value="1" />
     </path>
 
@@ -589,6 +608,9 @@
         <ctl name="HPOUT1L Input 2" value="ISRC2INT1" />
         <ctl name="HPOUT1R Input 2" value="ISRC2INT1" />
         <ctl name="AIF2 Mode" value="Master" />
+        <ctl name="DSP Virtual Output Mux" value="None" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+        <ctl name="HPOUT3R Input 1" value="AIF1RX2" />
         <ctl name="HP Switch" value="1" />
     </path>
 

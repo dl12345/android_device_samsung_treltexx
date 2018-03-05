@@ -81,7 +81,7 @@
     <ctl name="LHPF3 Coefficients" value="240 1" />
     <ctl name="LHPF4 Coefficients" value="240 58" />
 
-    <ctl name="IN3R HPF Switch" value="1" />
+    <ctl name="IN4L HPF Switch" value="1" />
     <ctl name="IN4R HPF Switch" value="1" />
 
     <!-- Common digital volume -->
@@ -159,7 +159,7 @@
     <ctl name="IN2 OSR" value="0" />
     <ctl name="IN3 OSR" value="0" />
     <ctl name="IN4 OSR" value="1" />
-    <ctl name="IN3R Digital Volume" value="138" />
+    <ctl name="IN4L Digital Volume" value="138" />
     <ctl name="IN4R Digital Volume" value="138" />
 
     <!-- HW DRE default Off -->
@@ -330,7 +330,7 @@
     <path name="scenario-speaker-default">
         <ctl name="ASRC RATE 1" value="SYNCCLK rate 1" />
         <ctl name="DSP4 Rate" value="SYNCCLK rate 1" />
-        <ctl name="DSP4 Aux 2" value="IN3R" />
+        <ctl name="DSP4 Aux 2" value="IN4L" />
         <ctl name="DSP4 Aux 3" value="IN4R" />
         <ctl name="ISRC2INT1 Input" value="ASRC2L" />
         <ctl name="LHPF3 Input 1" value="None" />
@@ -351,7 +351,7 @@
         <ctl name="DSP4 Firmware" value="DSM" />
         <ctl name="DSP4L Input 1" value="AIF1RX1" />
         <ctl name="DSP4L Input 2" value="AIF1RX2" />
-        <ctl name="DSP4 Aux 2" value="IN3R" />
+        <ctl name="DSP4 Aux 2" value="IN4L" />
         <ctl name="DSP4 Aux 3" value="IN4R" />
         <ctl name="ISRC2INT1 Input" value="ASRC2L" />
         <ctl name="LHPF3 Input 1" value="None" />
@@ -411,7 +411,7 @@
         <ctl name="HPOUT2R Input 1 Volume" value="26" />
         <ctl name="DSP4L Input 1 Volume" value="26" />
         <ctl name="DSP4L Input 2 Volume" value="26" />
-        <ctl name="IN3R Digital Volume" value="128" />
+        <ctl name="IN4L Digital Volume" value="128" />
         <ctl name="IN4R Digital Volume" value="128" />
     </path>
 

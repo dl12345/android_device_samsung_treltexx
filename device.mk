@@ -1,8 +1,8 @@
 LOCAL_PATH := device/samsung/treltexx
 
 # Flat device tree
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/dtb.img:dt.img
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/dtb.img:dt.img
 
 # Ramdisk
 PRODUCT_PACKAGES += \
