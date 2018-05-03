@@ -1,0 +1,2 @@
+# RIL
+BOARD_MODEM_TYPE := m7450
