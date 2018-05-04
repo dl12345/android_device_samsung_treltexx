@@ -5,8 +5,6 @@ vendor/firmware/BCM4358A1_V0054.0094_wisol.hcd
 
 # Sensors
 etc/sec_s3fwrn5_rfreg_thl.bin
-usr/idc/Synaptics_HID_TouchPad.idc
-usr/idc/Synaptics_RMI4_TouchPad_Sensor.idc
 
 # CP Boot Daemon
 bin/cbd
